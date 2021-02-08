@@ -1,0 +1,1 @@
+Okta.Config={enabledLogging:!1,allowOktaHttp:!0,useLocalJS:!0,verifyContentScript:!0,buildType:"prodBuild",startrecordingLogs:!1,onboardingLaunchNewTab:!1};

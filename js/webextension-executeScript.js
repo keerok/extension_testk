@@ -1,0 +1,1 @@
+(function e(){var t=Okta.fn.script={},r="/shared/shared.js",n="/shared/preload-content.js";function c(e,t,r){chrome.tabs.executeScript(e,{file:r,frameId:t,runAt:"document_idle"},function(){if(chrome.runtime.lastError){console.log(chrome.runtime.lastError.message)}})}t.injectPreloadScript=function(e,t){c(e,t,n)};t.injectContentScript=function(e,t){c(e,t,r)}})();

@@ -1,0 +1,1 @@
+!function e(){var n=Okta.fn.loc={},k=_okta.reduce,l=_okta.keys,p=_okta.escape;n.localizeTemplate=function(e,n,a,o,t){var c=n.en,r=n[a]||c,u=l(c);return k(u,function(e,n){var a=r[n]||c[n];return a=a?decodeURIComponent(a):"L10N_ERROR["+p(n)+"]",e.replace(new RegExp(o+n+t,"g"),a)},e)}}();

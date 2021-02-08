@@ -1,0 +1,1 @@
+!function t(e){var n=Okta.fn.other.string.stripWhitespace;e.fn.extend({textTrimmed:function(){return n(this.text())}})}($okta);
